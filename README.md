@@ -9,13 +9,13 @@ insistint on us using SYSV semaphores (conveniently the one with few stackOverfl
 
 
 
-##Producer-Consumer Problem
+## Producer-Consumer Problem
 The producer-consumer problem is a common problem that computer science that attempts to solve the problem
 of two process, attempting to seperately read and write from a data buffer stored as a qeue. One such solution 
 is the use of system semaphores. You can read more about the at this [wikipedia link](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem).
 
 
-##Semaphores
+## Semaphores
 Semaphores are special kinds of variables that are controlled by the operating systems. They are mainly used
 as a method to allow for smoother inter-process communication. If one process is using a semaphore, then another
 process goes to sleep until the other process is ready.
